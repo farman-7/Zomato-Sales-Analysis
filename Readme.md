@@ -9,6 +9,7 @@ This project analyzes **Zomato's sales data** using **Power BI** to provide acti
 ## 📷 Screenshots
 
 Include relevant screenshots here:
+![https://github.com/farman-7/Zomato-Sales-Analysis/blob/main/Index.png]
 ---
 
 ## 📁 Data Sources
