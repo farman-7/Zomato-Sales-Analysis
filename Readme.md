@@ -9,7 +9,10 @@ This project analyzes **Zomato's sales data** using **Power BI** to provide acti
 ## 📷 Screenshots
 
 Include relevant screenshots here:
-![https://github.com/farman-7/Zomato-Sales-Analysis/blob/main/Index.png]
+![image alt](https://github.com/farman-7/Zomato-Sales-Analysis/blob/main/Index.png)
+![image alt](https://github.com/farman-7/Zomato-Sales-Analysis/blob/main/Overview.png)
+![image alt](https://github.com/farman-7/Zomato-Sales-Analysis/blob/main/User%20Performance.png)
+![image alt](https://github.com/farman-7/Zomato-Sales-Analysis/blob/main/City%20Performance.png)
 ---
 
 ## 📁 Data Sources
@@ -66,10 +69,6 @@ The following measures were created to generate insights and visualizations:
 4. **Order Trends**:  
    - Time-based analysis (day vs. night sales, weekdays vs. weekends).  
    - Popular dishes during peak hours.  
-
-### Example Screenshot:  
-*(Replace this placeholder with actual screenshots of your dashboards)*  
-![Dashboard Example](Screenshots/Dashboard_Overview.png)
 
 ---
 
