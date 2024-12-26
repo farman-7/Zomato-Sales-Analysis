@@ -1,8 +1,15 @@
 
 # Zomato Sales Analysis 📊
 
-## Overview
-This project analyzes **Zomato's sales data** using **Power BI** to provide actionable insights into customer preferences, restaurant performance, and overall business growth. Leveraging data from multiple tables, the project demonstrates advanced visualization techniques, KPIs, and slicers to answer critical business questions.
+## 🎯 Project Overview
+The Zomato Sales Analysis project leverages data visualization to answer key business questions, such as:
+
+- Which cities generate the most revenue?
+- What are the trends in user gains and losses based on gender?
+- How do user ratings vary by city?
+- How does age impact user engagement?
+
+By combining cluster bar charts, line charts, tables, and slicers, this dashboard ensures actionable insights for decision-making.
 
 ---
 
@@ -33,49 +40,58 @@ The following CSV files were imported into Power BI:
 
 ---
 
-## 🚀 Key Business Questions Answered
+## ✨ Key Features
 
-1. **Which restaurants perform best based on revenue and ratings?**  
-2. **What are the top-selling dishes and their contribution to overall sales?**  
-3. **How does customer behavior vary across regions or time periods?**  
-4. **Which days of the week and times of the day generate the most sales?**
+### **Cluster Bar Chart**
+- Displays total sales amount by city.
+- Visualizes total gained users and lost users segmented by gender.
+- Represents rating counts and active users by city.
+
+### **Line Chart**
+- Highlights yearly sales trends, allowing for quick identification of growth or decline periods.
+
+### **Cluster Column Chart**
+- Shows user distribution by age groups, helping understand demographic engagement.
+
+### **Detailed Table**
+- Presents city-level performance metrics, including:
+  - **Sales**
+  - **Orders**
+  - **Gained Users**
+  - **Lost Users**
+
+### **KPIs (Key Performance Indicators)**
+- Total Sales
+- Total Users
+- Total Gained and Lost Users
+- Average Rating by City
+- Active Users Count
+
+### **Interactive Slicers**
+- Filters by year, city, gender, and age group, enabling dynamic analysis.
 
 ---
 
-## 💡 Measures and Calculations
+## 📊 Visualizations
 
-The following measures were created to generate insights and visualizations:
+### **Cluster Bar Chart**
+- Total sales amount by city.
+- Total gained and lost users segmented by gender.
+- Ratings count and active users across cities.
 
-| **Measure Name**           | **Description**                                                                 |
-|-----------------------------|---------------------------------------------------------------------------------|
-| **Total Revenue**           | `SUM(Order[Total_Price])`                                                      |
-| **Total Orders**            | `COUNT(Order[Order_ID])`                                                       |
-| **Average Order Value (AOV)**| `DIVIDE([Total Revenue], [Total Orders])`                                      |
-| **Top Dish by Revenue**     | Identified using `TOPN` and `SUMX` functions.                                   |
-| **Customer Retention Rate** | Percentage of repeat customers over a given time.                              |
-| **Sales by Time of Day**    | Sales trends segmented into Morning, Afternoon, Evening, and Night.            |
+### **Line Chart**
+- Yearly sales trends to visualize growth patterns.
 
----
+### **Cluster Column Chart**
+- User distribution by age groups for demographic insights.
 
-## 📊 Dashboards and Visualizations
+### **Multiple KPIs**
+- Dynamic KPIs display sales, users, ratings, and activity levels.
 
-### Key Dashboards Created:
-1. **Revenue Overview**:  
-   - KPIs for **Total Revenue**, **Total Orders**, and **AOV**.  
-   - Revenue trends by **week, month, or year**.  
-   - Slicers for filtering by **restaurant, dish, or time period**.
-
-2. **Top Performing Restaurants**:  
-   - Revenue and order count by restaurant.  
-   - Customer ratings plotted on a scatter chart.
-
-3. **Customer Insights**:  
-   - **Region-wise sales performance**.  
-   - Demographics-based insights (e.g., age groups, location preferences).
-
-4. **Order Trends**:  
-   - Time-based analysis (day vs. night sales, weekdays vs. weekends).  
-   - Popular dishes during peak hours.  
+### **Slicers**
+- Interactive slicers for real-time filtering by:
+  - **City**
+  - **Year**
 
 ---
 
@@ -91,17 +107,8 @@ The following measures were created to generate insights and visualizations:
 ## 🌟 Project Highlights
 
 1. **Interactive Slicers**: Users can filter by **restaurant**, **time period**, or **customer region**.  
-2. **Dynamic Visuals**: Top dishes and restaurants are updated dynamically based on filters.  
-3. **Advanced KPIs**: AOV and Customer Retention Rate provide deep business insights.  
-4. **Optimized Data Model**: Ensures faster loading and query performance.
-
----
-
-## Sample Business Insights:
-1. **Top-performing restaurants contribute 40% of total revenue, with the highest sales during weekends.**  
-2. **"Cheese Burst Pizza" is the most popular dish, generating 12% of total revenue.**  
-3. **Evening sales account for 50% of daily revenue, making it the most profitable time.**  
-4. **Customers from urban areas have a 25% higher retention rate compared to suburban areas.**
+2. **Dynamic Visuals**: Top dishes and restaurants are updated dynamically based on filters.
+3. . **Optimized Data Model**: Ensures faster loading and query performance.
 
 ---
 
